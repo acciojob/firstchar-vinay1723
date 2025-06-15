@@ -1,5 +1,8 @@
 function firstChar(text) {
   // your code here
+	if (text === "" || text === " ") {
+		return '';
+	}
 	return text.trim()[0];
 }
 
